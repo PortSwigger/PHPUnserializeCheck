@@ -1,0 +1,6 @@
+<p>This Burp Scanner Extension tries to find PHP Object Injection
+Vulnerabilities.</p>
+
+<p>It passes a serialized <code>PDO</code> object to the found injection points. If PHP
+tries to unserialize this object a fatal exception is thrown triggered in the
+object's <code>__wakeup()</code> method (ext/pdo/pdo_dbh.c)</p>

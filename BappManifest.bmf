@@ -1,0 +1,11 @@
+Uuid: 24dab228311049d89a27a4d721e17ef7
+ExtensionType: 1
+Name: PHP Object Injection Check
+ScreenVersion: 1.0
+SerialVersion: 0
+MinPlatformVersion: 0
+ProOnly: False
+Author: Securify
+ShortDescription: Find PHP Object Injection Vulnerabilities.
+EntryPoint: build/libs/php-object-injection-check-all.jar
+BuildCommand: gradle fatJar
