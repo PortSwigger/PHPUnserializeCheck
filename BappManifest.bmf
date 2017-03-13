@@ -6,6 +6,6 @@ SerialVersion: 0
 MinPlatformVersion: 0
 ProOnly: False
 Author: Securify
-ShortDescription: Find PHP Object Injection Vulnerabilities.
+ShortDescription: Finds PHP object injection vulnerabilities.
 EntryPoint: build/libs/php-object-injection-check-all.jar
 BuildCommand: gradle fatJar
