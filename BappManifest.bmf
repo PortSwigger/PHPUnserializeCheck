@@ -5,7 +5,7 @@ RepoName: php-object-injection-check
 ScreenVersion: 1.0
 SerialVersion: 1
 MinPlatformVersion: 0
-ProOnly: False
+ProOnly: True
 Author: Securify
 ShortDescription: Finds PHP object injection vulnerabilities.
 EntryPoint: build/libs/php-object-injection-check-all.jar
